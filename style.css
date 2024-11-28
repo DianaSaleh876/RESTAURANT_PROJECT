@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    /*تنسيق Header & Navigation*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.342);
+}
+
+.header .logo{
+float: left;
+width: 30%;
+}
+
+.header .logo h1{
+   padding: 10px 0px 10px 30px;
+}
+
+.header .nav{
+    float: left;
+    width: 70%;
+    text-align: center;
+}
+
+.header .nav ul li{
+    display: inline-block;
+    padding: 18px 13px;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.header .nav ul li a:hover{
+    color: white;
+    background: #f8cc9a;
+}
+
+a.active,a:hover{
+    background: #f8cc9a;
+    transition: .5s;
+}
+
+    /*تنسيق Landing Section*/
+.home{
+    background-image: url(images/800_gi-65e567c6cc6a9_filter_65e5680a045a3.jpg);
+    height: 500px;
+    position: relative;
+    background-size: cover;
+}
+
+.home .home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home .home-content h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.home .home-content p{
+    color: aliceblue;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: right;
+}
+
+
+.cta{
+    position: relative;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.cta-button{
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    font-size: 1.en;
+    transition: all 0.5s;
+}
+
+.cta-button:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid rosybrown;
+    transform: translate(-50%,-50%) scale(1.08);
+}
+
+    /* تنسيق البطاقات */
+.Services{
+    margin-top: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.line{
+    width: 70px;
+    height: 2px;
+    background-color: rgb(225, 110, 65);
+    margin: auto;
+}
+
+.card-item{
+    margin-top: 16px;
+    float: left;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.342);
+    padding: 50px;
+    cursor: pointer;
+    background-color: #f8cc9a;
+}
+
+.mg{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: auto;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 8px;
+}
+
+    /* تنسيق النموذج */
+form{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.line{
+    width: 70px;
+    height: 2px;
+    background-color: rgb(225, 110, 65);
+    margin: auto;
+}
+
+form p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+form label{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+form input,form textarea{
+    font-size: 16px;
+    padding: 10px 13px;
+    width: 100px;
+    border: 1px solid#ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+
+form textarea{
+    width: 120;
+    height: 80px;
+    top: 120px;
+    left: 68px;
+    border-radius: 0 5px 5px 0;
+}
+
+form button{
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form button:hover{
+    background-color: #f8cc9a;
+    
+}
+
+/* تنسيق الفوتر */
+footer{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.Footercontainer{
+width: 100%;
+padding: 70px 30px 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-media a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-media a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-media a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: white;
+    font-size: 16px;
+}
